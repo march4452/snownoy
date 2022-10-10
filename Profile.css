@@ -1,0 +1,89 @@
+/* This is a comment.
+    It can span many lines in a CSS file. */
+    body{
+        background-color: plum;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+      }
+      * a {
+        text-decoration: none;
+      }
+      * li {
+        list-style: none;
+      }
+    #container {
+        display:flex;
+        width: 30%;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+        height: 15vh;
+        position: relative;
+      }
+    #container ul {
+        display: flex;
+        align-items: center;
+      }
+    #container ul li {
+        padding: 0 25px;
+      }
+    #container ul li a {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+        font-family: "Archivo Black";
+      }
+      #original{
+        font-size: 20px;
+        letter-spacing: .3em ;
+        color: #fff;
+        transform: skewX(6deg);
+      }
+h1,h2,h3,h4{
+    background-color: palevioletred;
+    color: black;
+}
+img{
+    width: 20%; 
+}
+
+/* Font-size */
+ul{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    font-weight:lighter;
+    font-style:oblique; 
+}
+
+
+/* Text-align */
+div{
+    text-align: center;
+}
+
+/* Text-decoration */
+th{
+    text-decoration: underline;
+}
+
+/* id and class */
+#Thanakorn_pic{
+    width: 20%; 
+}
+
+.left_page{
+    text-align: left;
+}
+
+/* context selectors */
+div a{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
